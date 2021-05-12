@@ -11,7 +11,7 @@ ulRef.innerHTML = menuMarkup;
 const bodyRef = document.querySelector('body');
 const inputCheckbox = document.querySelector('.theme-switch__toggle');
 
-const currentThemeTheme = {
+const Theme = {
   LIGHT: 'light-theme',
   DARK: 'dark-theme',
 };
